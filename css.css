@@ -1,0 +1,31 @@
+terraform-azure-project/
+├── environments/
+│   ├── dev/
+│   │   ├── backend.tf
+│   │   ├── variables.tf
+│   │   └── main.tf
+│   └── prod/
+│       ├── backend.tf
+│       ├── variables.tf
+│       └── main.tf
+├── modules/
+│   ├── network/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── compute/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── load_balancer/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── storage/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+└── main/
+    ├── main.tf
+    ├── variables.tf
+    └── outputs.tf
